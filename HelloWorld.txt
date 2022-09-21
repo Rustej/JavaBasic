@@ -1,0 +1,19 @@
+class GuessGame {
+    public static void main(String[] args) {
+	    Random random = new Random();
+		Scanner scanner = new Scanner(System.in);
+		int number = random.nextInt(10);
+		
+		System.out.print("Guess the number [0..9]: ");
+		int guess = scanner.nextInt();
+		if (guess <number) {
+			System.out.println("Your number is less");
+		}else if (guess > number) {
+			System.out.println("Your number is bigger");
+		}else {
+			System.out.println("You guess my number");
+			break
+				}
+			}
+		}
+	}
